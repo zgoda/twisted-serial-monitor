@@ -1,0 +1,25 @@
+autobahn[twisted]
+Flask
+pyserial
+twisted-mqtt
+
+# Autobahn dependencies
+six
+txaio
+zope.interface
+twisted
+setuptools
+Automat
+constantly
+incremental
+appdirs
+packaging
+attrs
+pyparsing
+
+# Flask dependencies
+itsdangerous
+click
+Werkzeug
+MarkupSafe
+Jinja2

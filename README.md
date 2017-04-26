@@ -9,7 +9,3 @@ This is an example of routing serial communication to network protocols (websock
 * update `service/settings.py` with your own configuration: serial port to listen to and MQTT settings (host and port)
 * run the application with `python server.py`, if you want to debug using pdb/ipdb then export `DEBUG` variable to your environment (eg. `DEBUG=1 python server.py`)
 * to test websocket channel open `http://127.0.0.1:8080` in browser
-
-## Extending into usable application
-
-TBD

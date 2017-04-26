@@ -2,6 +2,7 @@ autobahn[twisted]
 Flask
 pyserial
 twisted-mqtt
+pyudev
 
 # Autobahn dependencies
 six

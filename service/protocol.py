@@ -18,6 +18,9 @@ class SerialProtocol(Protocol):
         self.wsFactory.send(data)
         self.mqtt.publish(message=data.encode('utf-8'))
 
+    def connectionLost(self, reason):
+        self.makeConnection(self.transport)
+
 
 class ServerProtocol(WebSocketServerProtocol):
 
